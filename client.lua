@@ -18,7 +18,7 @@ Citizen.CreateThread(function()
       end
 
       -- request bed model
-      RequestModel(bagModel)
+      RequestModel(bedModel)
 
       if not HasModelLoaded(bedModel) then
         Citizen.Trace('Waiting for v_49_motelmp_bed to load...')
